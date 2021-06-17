@@ -24,7 +24,7 @@ public:
 	AGameMarker::Marker tileMark = AGameMarker::Marker::NONE;
 	AGameMarker* gameMarker;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Material")
 	UMaterialInterface* Material;
 
 	float GreenAmount = 0;

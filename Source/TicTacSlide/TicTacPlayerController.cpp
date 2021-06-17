@@ -97,7 +97,6 @@ void ATicTacPlayerController::Tick(float DeltaTime)
 		{
 			hoveredTile = Cast<ATile>(hit.GetActor());
 		}
-
 	}
 
 	// Tick not being called on gamemode / temp workaround

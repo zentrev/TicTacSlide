@@ -35,7 +35,6 @@ void ATicTacSlideGameModeBase::BuildBoard()
 		slideTile->Init(i, BoardSize);
 		slideTile->SetMarker(AGameMarker::Marker::O);
 		OSlide.push_back(slideTile);
-
 	}
 
 	for (int i = 0; i < BoardSize; i++)
